@@ -1,7 +1,6 @@
 SYSTEM_THREAD(ENABLED);
 #include <Wire.h>
 #include "oled-wing-adafruit.h"
-#include <blynk.h>
 
 volatile bool interruptOccured = false;
 OledWingAdafruit display;
